@@ -1,3 +1,50 @@
 body {
     background:url("../imagenes/fondo.jpg");
+    position: absolute;
+    top: 20%;
+    left: 30%;
 }
+
+body div{
+
+}
+.card-body{
+    font-family: 'Poppins' ;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 450px;
+    font-size: 18px;
+    color: #989898;
+    
+}
+ .card {
+     width: 100px;
+     background-color: #ffffff;
+     margin: 0 auto; /* Added */
+        float: none; /* Added */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        
+ }
+ .card-title{
+     color:#989898 ;
+     text-align: center;
+ }
+ .col input{
+     border-radius: 20px;
+     background-color:rgb(240, 240, 240);
+     border-color:rgb(240, 240, 240);
+ }
+
+ .form-group input{
+     border-radius: 20px;
+     background-color:rgb(240, 240, 240);
+     border-color:rgb(240, 240, 240);
+ }
+
+ .card-body a{
+     margin-right: 70%;
+     border-radius: 20px;
+ }
