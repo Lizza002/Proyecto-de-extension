@@ -17,12 +17,9 @@
     color:#ffffff ;
    
 }
+.navbar-nav i{
+    padding: 10%;
 
-.btn-notificación{
-    margin-right: 10%;
-}
-.btn{
-    padding-right: auto;
 }
 
 .col-md-3 img{
@@ -58,9 +55,12 @@
 .col-md-5 li{
     color:#ffffff;
 }
-[class^="bi-"]::before, [class*=" bi-"]::before {
-    padding: 15px;
-}
+
+
 .navbar-expand-sm .navbar-nav {
     padding-inline: 250px;
+}
+.btn-group{
+    padding-inline: 10%;
+    background-color: #9d0f09;
 }
