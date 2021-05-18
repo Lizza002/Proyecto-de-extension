@@ -1,7 +1,7 @@
 .logo img{
     width: 300px;
     margin: 100px;
-    margin-bottom: 100px;
+   
 }
 
 .navbar-nav{
@@ -83,10 +83,15 @@
 
 .col p{
     font-family: 'Poppins';
+    font-size: 12px;
     
 }
 
 .col h5{
+    font-family:'Poppins';
+    color: #9d0f09;
+}
+.col h6{
     font-family:'Poppins';
     color: #9d0f09;
 }
