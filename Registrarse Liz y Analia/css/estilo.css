@@ -1,50 +1,52 @@
 body {
-    background:url("../imagenes/fondo.jpg");
-    position: absolute;
+    background:url("../imagenes/fondo.jpg"); /* Imagen de fondo */
+    position: absolute;/* Posicion de la imagen */
     top: 20%;
-    left: 30%;
+    left: 35%;
+    
 }
 
-body div{
-
-}
 .card-body{
-    font-family: 'Poppins' ;
-    background: #ffffff;
-    border-radius: 20px;
-    width: 450px;
-    font-size: 18px;
-    color: #989898;
+    font-family: 'Poppins' ;/* Tipo de letra */
+    background: #ffffff; /* Color de fondo del objeto */
+    border-radius: 20px; /* El radio del objeto */
+    width: 400px; /* Ancho */
+    font-size: 18px; /* Tamaño de letra */
+    color: #989898; /* Color */ 
+    
     
 }
  .card {
      width: 100px;
-     background-color: #ffffff;
-     margin: 0 auto; /* Added */
-        float: none; /* Added */
-        position: absolute;
+     background-color: #ffffff; /* Color de fondo del objeto */
+     margin: 0 auto; /* Sirve para mover el objeto */
+        float: none; /* especifica cómo debe flotar un elemento */
+        position: absolute; /* Posicion de la tarjeta */
         top: 50%;
         left: 50%;
+        
 
         
  }
  .card-title{
-     color:#989898 ;
-     text-align: center;
+     color:#9d0f09 ; /* Color de letra */
+     text-align: center; /* Alinear texto */
  }
  .col input{
-     border-radius: 20px;
-     background-color:rgb(240, 240, 240);
-     border-color:rgb(240, 240, 240);
+     border-radius: 20px;/* El radio del objeto */
+     background-color:rgb(240, 240, 240); /* Color de fondo del objeto */
+     border-color:rgb(240, 240, 240); /* Color del borde */
  }
 
  .form-group input{
-     border-radius: 20px;
-     background-color:rgb(240, 240, 240);
-     border-color:rgb(240, 240, 240);
+     border-radius: 20px; /* El radio del objeto */
+     background-color:rgb(240, 240, 240); /* Color de fondo del objeto */
+     border-color:rgb(240, 240, 240); /* Color del borde */
+     margin-top: 30px ; /* Margen */
  }
 
  .card-body a{
-     margin-right: 70%;
-     border-radius: 20px;
+     margin-right: 70%; /* Margen */
+     border-radius: 20px; /* El radio del objeto */
+     
  }
