@@ -42,7 +42,7 @@
     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
     color:#ffffff; /*Agregar color de letra*/
     font-size: 20px; /*Tamaño de letra*/
-    margin: auto; /*Margen del objeto*/
+    margin: auto;/*Agregar color de letra*/
 }
 .col-md-5 p{
     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
@@ -72,30 +72,28 @@
 }
 
 .titulo{
-    font-family: 'Poppins';
+    font-family: 'Poppins';/*Tipo de letra*/
     margin-left: 550px;
-    color: #9d0f09;
-    padding: 1.5rem;
-}
-.container{
-   
+    color: #9d0f09;/*Agregar color de letra*/
+    padding: 1.5rem; /*se utiliza para crear espacio alrededor del contenido de un elemento*/
 }
 
+
 .col p{
-    font-family: 'Poppins';
-    font-size: 12px;
+    font-family: 'Poppins';/*Tipo de letra*/
+    font-size: 12px; /*Tamaño de letra*/
     
 }
 
 .col h5{
-    font-family:'Poppins';
-    color: #9d0f09;
+    font-family:'Poppins';/*Tipo de letra*/
+    color: #9d0f09;/*Agregar color de letra*/
 }
 .col h6{
-    font-family:'Poppins';
-    color: #9d0f09;
+    font-family:'Poppins';/*Tipo de letra*/
+    color: #9d0f09;/*Agregar color de letra*/
 }
 .col img{
-    margin-top: 50px;
-    width: 300px;
-    margin-left: 15%;
+    margin-top: 50px;/*Agregar color de letra*/
+    width: 300px;  /*Ancho del objeto*/
+    margin-left: 15%;/*Agregar color de letra*/
