@@ -76,13 +76,14 @@ body {
 .card-body{
     font-family: 'Poppins' ;/* Tipo de letra */
     background: #ffffff; /* Color de fondo del objeto */
-    border-radius: 20px; /* El radio del objeto */
+    border-radius: 35px; /* El radio del objeto */
     width: 400px; /* Ancho */
     font-size: 18px; /* Tamaño de letra */
     color: #989898; /* Color */ 
     position: absolute;
     left: 35%;
     top: 25%;
+    box-shadow: 0px 0px 7px #999999;
     
     
     
@@ -99,6 +100,7 @@ body {
  .card-title{
      color:#9d0f09 ; /* Color de letra */
      text-align: center; /* Alinear texto */
+     padding-top: 10px;
  }
 
 
