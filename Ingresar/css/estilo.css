@@ -1,0 +1,24 @@
+body {
+    background:url("../Imagenes/fondo.jpg");
+}
+
+img{width: 400px;
+	right:60px;
+
+}
+
+.col input{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+    margin-top: 20px;
+ }
+
+a#btn-borde {
+    background-color:  #FFFFFF;
+    color:black;
+    width: 250px;
+    border-radius: 30px;
+    height: 40px;
+    border-color: #9D0f09;
+}
