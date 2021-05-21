@@ -1,8 +1,29 @@
-.logo img {
-    margin-left:  430px; 
+.container{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+.container img{
     width: 450px;
-    padding-bottom: 50%;
+    margin-left: 150%;
+}
+.texto1 p {
     position: absolute;
+    top: 300px;
+    left: 200%;
+     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+     font-size: 12px;
+     color: #9d0f09;
+}
+
+.texto2{
+    position: absolute;
+    top: 80%;
+    left: 200%;
+     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+     font-size: 12px;
+     color:#989898;
+}
  
 }
 .logo p {
@@ -79,41 +100,4 @@
     background-color: #9d0f09; /*Agregar color de fondo*/
 }
 
-.card-body{
-    font-family: 'Poppins' ;/* Tipo de letra */
-    background: #ffffff; /* Color de fondo del objeto */
-    border-radius: 35px; /* El radio del objeto */
-    width: 400px; /* Ancho */
-    font-size: 18px; /* Tamaño de letra */
-    color: #989898; /* Color */ 
-    position: absolute;
-    left: 35%;
-    top: 25%;
-    box-shadow: 0px 0px 7px #999999;
-    
-    
-    
-}
- .card {
-     width: 100px;
-     background-color: #ffffff; /* Color de fondo del objeto */
-     margin: 0 auto; /* Sirve para mover el objeto */
-        float: none; /* especifica cómo debe flotar un elemento */
-        
 
-        
- }
- .card-title{
-     color:#9d0f09 ; /* Color de letra */
-     text-align: center; /* Alinear texto */
-     padding-top: 10px;
- }
-
-
- 
-
- .card-body a{
-     margin-right: 70%; /* Margen */
-     border-radius: 20px; /* El radio del objeto */
-     
- }
