@@ -1,0 +1,175 @@
+.navbar-nav{
+    width: 100vh;
+}
+
+.navbar-nav img{
+    width: 50px;
+    height: 50px;
+    margin-inline: 15%;
+}
+
+.navbar-nav a {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navbar-nav li{
+    color:#ffffff;
+}
+
+.navbar-nav i{
+    padding: 10%;
+}
+
+.col-md-3 img{
+    width: 10px;
+}
+
+.col-md-6 p {
+    font-family: 'Poppins', sans-serif; 
+    color:#ffffff;
+    font-size: 15px;
+    margin: auto;
+}
+
+.col-md-6 h5{
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+    font-size: 20px;
+    margin: auto;
+}
+
+.col-md-5 p{
+    font-family: 'Poppins', sans-serif; 
+    color:#ffffff;
+    font-size: 15px;
+    margin-right: 15%;
+}
+
+.col-md-5 h5{
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif; 
+    color:#ffffff;
+    font-size: 20px;
+    padding-inline: 180px;
+}
+
+.col-md-5 li{
+    color:#ffffff;
+}
+
+
+.navbar-expand-sm .navbar-nav {
+    padding-inline: 250px;
+}
+
+.btn-group{
+    padding-inline: 10%;
+    background-color: #9d0f09;
+}
+
+
+
+
+
+
+
+
+
+/*Centra la tarjeta*/
+.cardtext-center {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+}
+
+/*Modifica el tipo de letra, color y borde de la tarjeta (redondeado y con sombra)*/
+.card-body{
+    font-family: 'Poppins' ;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 18px;
+    color: #989898;
+    box-shadow: 0px 0px 7px #999999;
+}
+
+/*Cambia el color y centra el texto*/
+.card-title{
+    color:#9d0f09 ;
+    text-align: center;
+ }
+
+ h6{
+    text-align: center;
+ }
+
+/*Modifica el color y el borde, y posiciona los imput*/
+.col input{
+    border-radius: 20px;
+    background-color:rgb(240, 240, 240);
+    border-color:rgb(240, 240, 240);
+    margin-top: 20px;
+ }
+
+/*Modifica, posiciona y da el color rojo al botón*/
+.card-body a{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #9d0f09;
+    margin-left: 41%;
+    width: 120px;
+ }
+
+.form-select{
+    border-radius: 20px;
+    background-color:rgb(240, 240, 240);
+    border-color:rgb(240, 240, 240);
+    margin-top: 20px;
+    font-size: 16px;
+    color: #989898;
+    padding: 5px;
+    width: 130px;
+ }
+
+div#div-file {
+    position: relative;
+    margin: 5px;
+    padding: 15px;
+    height: 20px;
+    font-size: 15px;
+}
+
+input#myfile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+input#portada {
+    height: 150px;
+    text-align: center;
+}
+
+input#descrip {
+    height: 120px;
+    text-align: center;
+}
+
+a#btn-borde {
+    background-color:  #FFFFFF;
+    color:#9d0f09;
+    width: 120px;
+    border-radius: 30px;
+    height: 40px;
+    border-color: #9D0f09;
+}
+
