@@ -79,13 +79,11 @@
 
 /*Centra la tarjeta*/
 .cardtext-center {
-    position: absolute;
-    top: 20%;
-    left: 50%;
+    margin-left: 700px;
     transform: translate(-50%);
     align-items: center;
+    padding: 2rem;
 }
-
 /*Modifica el tipo de letra, color y borde de la tarjeta (redondeado y con sombra)*/
 .card-body{
     font-family: 'Poppins' ;
@@ -164,12 +162,18 @@ input#descrip {
     text-align: center;
 }
 
-a#btn-borde {
-    background-color:  #FFFFFF;
-    color:#9d0f09;
+.btn {
+    
+    color:#ffffff;
     width: 120px;
     border-radius: 30px;
     height: 40px;
     border-color: #9D0f09;
 }
-
+.col-sm-7 a{
+    color: #9D0f09;
+    width: 120px;
+    border-radius: 30px;
+    height: 40px;
+    border-color: #9D0f09;
+}
