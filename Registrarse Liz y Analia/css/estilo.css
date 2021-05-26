@@ -13,6 +13,7 @@ body {
     width: 400px; /* Ancho */
     font-size: 18px; /* Tamaño de letra */
     box-shadow: 0px 0px 7px #999999;
+  
     
     
 }
@@ -37,6 +38,16 @@ body {
      background-color:rgb(240, 240, 240); /* Color de fondo del objeto */
      border-color:rgb(240, 240, 240); /* Color del borde */
  }
+ .col select{
+    border-radius: 20px;/* El radio del objeto */
+    background-color:rgb(240, 240, 240); /* Color de fondo del objeto */
+    border-color:rgb(240, 240, 240); /* Color del borde */
+    font-size: 16px;
+    padding: 0.3rem;
+
+    
+}
+
 
  .form-group input{
      border-radius: 20px; /* El radio del objeto */
