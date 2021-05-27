@@ -2,7 +2,7 @@
 
 .imagen img{
     width: 1000px;
-    margin-left:26%;
+    margin-left:25%;
    
 }
 
@@ -79,7 +79,32 @@
 .boton-menu a{
     color: #9d0f09;
     border-color:#989898;
-    border-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
     font-family: 'Poppins';
-    
+    margin-right: auto;
+
+}
+.btn {
+    box-shadow: grey;
+}
+
+.col h3 {
+    font-family: 'Poppins';
+    color: #9d0f09;
+
+}
+
+.card{
+    width: 600px;
+}
+
+.col-sm img{
+    border-radius:30px;
+    width:100px;
+}
+.col a{
+    font-family: 'Poppins';
+    color:#ffffff;
+    border-radius:20px;
 }
