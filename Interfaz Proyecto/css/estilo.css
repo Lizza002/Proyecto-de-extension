@@ -1,8 +1,9 @@
 
 
 .imagen img{
-    width: 1000px;
-    margin-left:25%;
+    width: 300px;
+    margin-left:65%;
+    padding-top:1.5rem;
    
 }
 
@@ -107,4 +108,7 @@
     font-family: 'Poppins';
     color:#ffffff;
     border-radius:20px;
+}
+.card-body a{
+    margin-left:280px;
 }
