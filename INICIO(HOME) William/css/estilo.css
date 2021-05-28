@@ -150,7 +150,8 @@ padding:2rem;
     box-shadow:#989898;
 }
 .card-body{
-    box-shadow:#989898;
+    box-shadow: 0px 0px 7px #999999;
+    border-radius: 35px;
 }
 .text-muted {
     color:#9d0f09;
