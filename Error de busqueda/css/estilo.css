@@ -1,3 +1,14 @@
+.boton-menu a{
+    color: #9d0f09;
+    border-color:#989898;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    font-family: 'Poppins';
+    margin-right: auto;
+}
+
+
+
 .container{
     position: relative;
     display: inline-block;
