@@ -32,24 +32,29 @@ color: #9D0f09;
   
 }
 
-.btn {
-  color:#FFFFFF;
-  background-color: #9D0f09;
-  border-radius: 30px;
-  width: 120px; 
-  height: 37px;
-  border-color: #9D0f09;
-}
 
-.btn1 {
-  font-family: Poppins 10-pt;
-  color:#989898;
-  background-color: #FFFFFF;
-  border-radius: 30px;
-  width: 230px;
-  height: 43px;
-  border-color: #9D0f09;
+.button1 {
+    margin-top: 1rem;
+    background-color:  #9d0f09;
+    border: 1px solid #9d0f09; 
+    font-family: Poppins;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 35px; 
 }
+.button {
+    margin-top: 1rem;
+    background-color:  #ffffff;
+    border: 1px solid #9d0f09; 
+    font-family: Poppins;
+    border-radius: 20px;
+    color: #989898;
+    width: 200px;
+    height: 35px;
+        
+}
+      
 .btn-contacto:hover {
   background-color: #420b09;
   
