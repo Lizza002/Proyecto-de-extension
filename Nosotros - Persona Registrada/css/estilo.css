@@ -1,12 +1,13 @@
 .boton-menu a{
     color: #9d0f09;
-    border-color:#989898;
     border-top-right-radius:20px;
     border-bottom-right-radius:20px;
     font-family: 'Poppins';
     margin-right: auto;
+    box-shadow: 0px 0px 7px #999999;
+    border-color:#999999;
+   
 }
-
 .logo img{
     width: 300px;
     margin: 100px;
