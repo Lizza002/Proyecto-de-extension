@@ -91,9 +91,9 @@
 
 #titulo h3{
     color: #9d0f09;
-    margin-left: 550px;
+    margin-left: 600px;
     font-family:'Poppins';
-    padding-bottom:4rem;
+    padding-bottom:1rem;
 }
 
 .card{
@@ -102,13 +102,41 @@
     border-radius:20px;
     box-shadow: 0px 0px 5px #999999;
 }
-
-
-col a{
-    font-family: 'Poppins';
-    color:#ffffff;
-    border-radius:20px;
+.card-body{
 }
-card-body a{
-    margin-left:280px;
+
+
+.menu {
+	display: flex;
+    margin-left:250px;
+}
+
+.menu p {
+	margin-right: 2rem;
+	cursor: pointer;
+    color: #9d0f09;
+    font-family:'Poppins';
+
+}
+
+.content {
+	margin-top: 2rem;
+}
+
+[data-content] {
+	display: none;
+}
+
+.active[data-content] {
+	display: block;
+}
+
+.col-8{
+    color:#989898 ;
+    font-family: 'Poppins';
+}
+
+.col-4{
+    
+    color:#989898 ;
 }
