@@ -1,13 +1,15 @@
 body {
-    text-align: center;
+    text-align: center; /*Alineacion del texto*/
     
    
 }
+/*Ancho y alto*/
 .logo img{
     width: 300px;
     margin: 100px;
    
 }
+/*Margen, tipo de letra y color*/
 h2 {
     margin-top: 1cm;
     font-family: Poppins;
@@ -88,6 +90,7 @@ h2 {
 
 }
     
+/*Margen, tipo de letra, color de fondo, borde, radio del borde*/
 .form-control{
     margin-top: 0.5cm;
     background-color:  #E1E1E1;
@@ -95,6 +98,7 @@ h2 {
     font-family: Poppins;
     border-radius: 20px;
 }
+/*Margen, tipo de letra, color de fondo, borde, radio del borde, alineacion, ancho y alto*/
 .form-control1{
     margin-top: 0.5cm;
     background-color:  #FFFFFF;
@@ -107,30 +111,30 @@ h2 {
     
 }
 .login {
-    margin-top: 1cm;
-    font-family: Poppins;
-    background-color:  #FFFFFF;
-    border: 1px solid #E1E1E1; 
-    border-radius: 55px;
-    padding: 17px;
-    width: 400px;
-    height: 350px;
-    position: absolute;
+    margin-top: 1cm; /*Margen*/
+    font-family: Poppins; /*tipo de letra*/
+    background-color:  #FFFFFF; /* color de fondo*/
+    border: 1px solid #E1E1E1; /* color de borde */
+    border-radius: 55px; /* radio del borde*/
+    padding: 17px; /*agregar espacio*/
+    width: 400px;/*Ancho*/
+    height: 350px;/*Alto*/
+    position: absolute; /*Posicion*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
 .button1 {
-    margin-top: 1rem;
-    background-color:  #9d0f09;
-    border: 1px solid #9d0f09; 
-    font-family: Poppins;
-    border-radius: 20px;
-    color: #FFFFFF;
-    width: 100px;
-    height: 35px;
+    margin-top: 1rem; /*Margen*/
+    background-color:  #9d0f09; /* color de fondo*/
+    border: 1px solid #9d0f09; /* color de borde */
+    font-family: Poppins; /*tipo de letra*/
+    border-radius: 20px; /* radio del borde*/
+    color: #FFFFFF; /*color de letra*/
+    width: 100px; /*Ancho*/
+    height: 35px; /*Alto*/
         
 }
  footer {
-    margin-top: 100px;
+    margin-top: 100px; /*Margen*/
 }

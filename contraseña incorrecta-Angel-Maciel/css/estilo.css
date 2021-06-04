@@ -1,11 +1,14 @@
+/* Url de la imagen y alineacion de texto*/
 body {
     background:url("../fondo/fondo.jpg");
     text-align: center;
 }
+/* Tamano y color de texto*/
 p  {
 font-size: 13px;
 color: #9D0f09;
 }
+/* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
 .login {
   font-family: Poppins;
   background-color:  #FFFFFF;
@@ -20,6 +23,7 @@ color: #9D0f09;
   transform: translate(-50%, -50%);
   }
 
+  /* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
   .form-control {
    padding: 1rem;
    font-family: Poppins 10-pt;
@@ -32,7 +36,7 @@ color: #9D0f09;
   
 }
 
-
+/* Tamano, color, tipo de letra, borde, radio, margen, ancho y alto del boton*/
 .button1 {
     margin-top: 1rem;
     background-color:  #9d0f09;
@@ -43,6 +47,7 @@ color: #9D0f09;
     width: 100px;
     height: 35px; 
 }
+/* Tamano, color, tipo de letra, borde, radio, margen, ancho y alto del boton*/
 .button {
     margin-top: 1rem;
     background-color:  #ffffff;
@@ -56,15 +61,15 @@ color: #9D0f09;
 }
       
 .btn-contacto:hover {
-  background-color: #420b09;
+  background-color: #420b09; /* Color de fondo del boton*/
   
 }
 
 .btn-contactos:active {
-  background-color: #470f0f;
+  background-color: #470f0f; /* Color de fondo del boton*/
 }
 
 .link {
-  text-decoration: none ;
-  color:#989898;
+  text-decoration: none ; /* Decoracion del texto*/
+  color:#989898; /* Color de texto*/
 }

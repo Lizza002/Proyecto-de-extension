@@ -1,51 +1,54 @@
 .boton-menu a{
-    color: #9d0f09;
-    border-color:#989898;
-    border-top-right-radius:20px;
+    color: #9d0f09; /*Color de letra*/
+    border-color:#989898; /*Agregar color de letra*/
+    border-top-right-radius:20px; /*Tipo de letra*/
     border-bottom-right-radius:20px;
-    font-family: 'Poppins';
-    margin-right: auto;
+    font-family: 'Poppins'; /*Tipo de letra*/
+    margin-right: auto; /*Margen del objeto*/
 }
 
 
 
+/*Posicion y ancho*/
 .container{
     position: relative;
     display: inline-block;
     width: 300px;
 }
+
 .container img{
-    width: 450px;
-    margin-left: 150%;
+    width: 450px; /*Ancho del objeto*/
+    margin-left: 150%; /*Margen del objeto*/
 }
 
 .texto1 p {
-    position: absolute;
-    width: 100%;
-    top: 300px;
+    position: absolute; /*Posicion*/
+    width: 100%; /*Ancho del objeto*/
+    top: 300px; 
     left: 200%;
     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    font-size: 12px;
-    color: #9d0f09;
+    font-size: 12px; /*Tamaño de letra*/
+    color: #9d0f09; /*Color de letra*/
+}
 }
 
 .texto2{
-    position: absolute;
-    width: 60%;
+    position: absolute; /*Posicion*/
+    width: 60%; /*Ancho del objeto*/
     top: 70%;
     left: 200%;
     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    font-size: 12px;
-    color:#989898; 
+    font-size: 12px; /*Tamaño de letra*/
+    color:#989898; /*Color de letra*/
 }
  
 }
 .logo p {
     font-family: 'Poppins', sans-serif; /*Tipo de letra*/
     font-size: 20px; /*Tamaño de letra*/
-    color: #9d0f09;
-    margin-left:  450px;
-    margin-top: 300px;
+    color: #9d0f09;  /*Color de letra*/
+    margin-left:  450px;  /*Margen izquierdo del objeto*/
+    margin-top: 300px; /*Margen derecho del objeto*/
 }
 .navbar-nav{
     width: 100vh; /*Ancho del objeto*/
