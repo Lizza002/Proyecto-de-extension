@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css"> <!--Enlace al css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!--Enlace a boostrap-->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"><!--Enlace a google fonts-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"><!--Enlace a iconos de google-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <!--Enlace al css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Enlace a boostrap-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!--Enlace a google fonts-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!--Enlace a iconos de google-->
 
 
-    <title>Registrarse</title> <!--Nombre de la pagina-->
+  <title>Registrarse</title>
+  <!--Nombre de la pagina-->
 </head>
+
 <body>
-    <div class="card text-center" width="40%"><!--Nombre de la clase-->
+  <div class="card text-center" width="40%">
+    <!--Nombre de la clase-->
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Completa los datos</h5>
+    <!--Titulo del elemento-->
+    <form>
+      <div class="row">
+        <!--Sirve para crear filas-->
+        <div class="col">
+          <!--Nombre de la clase-->
+          <input type="text" class="form-control" placeholder="Nombres">
+          <!--Formulario-->
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Completa los datos</h5><!--Titulo del elemento-->
-          <form>
-            <div class="row"><!--Sirve para crear filas-->
-              <div class="col"><!--Nombre de la clase-->
-                <input type="text" class="form-control" placeholder="Nombres"> <!--Formulario-->
-              </div>
-              <div class="col"><!--Nombre de la clase-->
-                <input type="text" class="form-control" placeholder="Apellidos"> <!--Formulario-->
-              </div>
-            </div>
-            <div class="form-group"><!--Nombre de la clase-->
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Correo electrónico"><!--Formulario-->
-            </div>
-            <div class="form-group"><!--Nombre de la clase-->
-              <input type="password" class="form-control" placeholder="Contraseña"><!--Formulario-->
-            </div>
-              <div class="row"><!--Sirve para crear filas-->
-                <div class="col"><!--Nombre de la clase-->
-                  <select class="form-select" aria-label="Default select example" style="color:#989898;"> <!--Seleccionar facultad-->
-                    <option selected>Facultad</option>
-                    <option>FACAT</option>
-                    <option>FACEM</option>
-                    <option>FACSA</option>
-                  </select>
-                </div>
-                <div class="col"><!--Nombre de la clase-->
-                  <select class="form-select" aria-label="Default select example"style="color:#989898;"> <!--Seleccionar carrera-->
-                    <option selected>Carrera</option>
-                    <option>Diseño</option>
-                    <option>Two</option>
-                    <option>Three</option>
-                  </select>
-                </div>
-                <div class="col" style="co"><!--Nombre de la clase-->
-                  <select class="form-select" aria-label="Default select example"style="color:#989898;"><!--Seleccionar año-->
-                    <option selected>Año</option>
-                    <option>1°</option>
-                    <option>2°</option>
-                    <option>3°</option>
-                  </select>
-                </div>
-              </div>
-            
-            
-              <div></form>
-               <a href="../Ingresar/index.html" class="btn btn-primary" style="background-color: #9d0f09; margin-top: 30px; margin-left: 105px; border-color:#9d0f09;">REGISTRARME</a> <!--Boton de la tarjeta-->
+        <div class="col">
+          <!--Nombre de la clase-->
+          <input type="text" class="form-control" placeholder="Apellidos">
+          <!--Formulario-->
         </div>
-      </div>  
+      </div>
+      <div class="form-group">
+        <!--Nombre de la clase-->
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Correo electrónico">
+        <!--Formulario-->
+      </div>
+      <div class="form-group">
+        <!--Nombre de la clase-->
+        <input type="password" class="form-control" placeholder="Contraseña">
+        <!--Formulario-->
+      </div>
+      <div class="row">
+        <!--Sirve para crear filas-->
+        <div class="col">
+          <!--Nombre de la clase-->
+          <select class="form-select" aria-label="Default select example" style="color:#989898;">
+            <!--Seleccionar facultad-->
+            <option selected>Facultad</option>
+            <option>FACAT</option>
+            <option>FACEM</option>
+            <option>FACSA</option>
+          </select>
+        </div>
+        <div class="col">
+          <!--Nombre de la clase-->
+          <select class="form-select" aria-label="Default select example" style="color:#989898;">
+            <!--Seleccionar carrera-->
+            <option selected>Carrera</option>
+            <option>Diseño</option>
+            <option>Two</option>
+            <option>Three</option>
+          </select>
+        </div>
+        <div class="col" style="co">
+          <!--Nombre de la clase-->
+          <select class="form-select" aria-label="Default select example" style="color:#989898;">
+            <!--Seleccionar año-->
+            <option selected>Año</option>
+            <option>1°</option>
+            <option>2°</option>
+            <option>3°</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div>
+    </form>
+    <a href="../Ingresar/index.html" class="btn btn-primary"
+      style="background-color: #9d0f09; margin-top: 30px; margin-left: 105px; border-color:#9d0f09;">REGISTRARME</a>
+    <!--Boton de la tarjeta-->
+  </div>
+  </div>
 
 
 
 </body>
+
 </html>
-  
