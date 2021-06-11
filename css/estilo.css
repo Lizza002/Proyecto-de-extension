@@ -1,160 +1,249 @@
-body {
-    text-align: center;
-    
+/*Footer y Header REGISTRADO*/
+.navbar-nav{
+    width: 100vh;
 }
 
-.navbar-nav{
-    width: 100vh; /*Ancho del objeto*/
-}
 .navbar-nav img{
-    width: 50px; /*Ancho del objeto*/
-    height: 50px; /*Alto del objeto*/
-    margin-inline: 15%; /*Margen del objeto*/
-  
+    width: 50px;
+    height: 50px;
+    margin-inline: 15%;
 }
+
 .navbar-nav a {
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    font-size: 20px; /*Tamaño de letra*/
-    color: #ffffff; /*Color de letra*/
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .navbar-nav li{
-    color:#ffffff ;/*Color de letra*/
-   
+    color:#ffffff;
 }
-.navbar-nav i{
-    padding: 10%; /*se utiliza para crear espacio alrededor del contenido de un elemento*/
 
+.navbar-nav i{
+    padding: 10%;
 }
 
 .col-md-3 img{
-    width: 10px; /*Ancho del objeto*/
+    width: 10px;
 }
+
 .col-md-6 p {
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    color:#ffffff; /*Agregar color de letra*/
-    font-size: 15px;  /*Tamaño de letra*/
-    margin: auto; /*Margen del objeto*/
+    font-family: 'Poppins', sans-serif; 
+    color:#ffffff;
+    font-size: 15px;
+    margin: auto;
 }
 
 .col-md-6 h5{
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    color:#ffffff; /*Agregar color de letra*/
-    font-size: 20px; /*Tamaño de letra*/
-    margin: auto; /*Margen del objeto*/
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+    font-size: 20px;
+    margin: auto;
 }
+
 .col-md-5 p{
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    color:#ffffff; /*Agregar color de letra*/
-    font-size: 15px; /*Tamaño de letra*/
+    font-family: 'Poppins', sans-serif; 
+    color:#ffffff;
+    font-size: 15px;
+    margin-right: 15%;
 }
 
 .col-md-5 h5{
     margin-right: auto;
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    color:#ffffff; /*Agregar color de letra*/
-    font-size: 20px; /*Tamaño de letra*/
-    padding-inline: 180px; /*se utiliza para crear espacio alrededor del contenido de un elemento*/
-
+    font-family: 'Poppins', sans-serif; 
+    color:#ffffff;
+    font-size: 20px;
+    padding-inline: 180px;
 }
+
 .col-md-5 li{
-    color:#ffffff; /*Agregar color de letra*/
+    color:#ffffff;
 }
 
 
 .navbar-expand-sm .navbar-nav {
-    padding-inline: 250px; /*se utiliza para crear espacio alrededor del contenido de un elemento*/
+    padding-inline: 250px;
 }
+
 .btn-group{
-    padding-inline: 10%; /*se utiliza para crear espacio alrededor del contenido de un elemento*/
-    background-color: #9d0f09; /*Agregar color de fondo*/
+    padding-inline: 10%;
+    background-color: #9d0f09;
 }
 
 
- .card {
-     width: 100px;
-     background-color: #ffffff; /* Color de fondo del objeto */
-     margin: 0 auto; /* Sirve para mover el objeto */
-        float: none; /* especifica cómo debe flotar un elemento */
-        
-
-        
- }
- .card-title{
-     color:#9d0f09 ; /* Color de letra */
-     text-align: center; /* Alinear texto */
-     padding-top: 10px;
- }
 
 
- 
 
- .card-body a{
-     margin-right: 70%; /* Margen */
-     border-radius: 20px; /* El radio del objeto */
-     
- }
- .form-search {
-    height:100px;
-    width:300px;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top:30px;
+
+
+
+/*Footer y Header INVITADO*/
+
+
+
+
+
+
+
+
+/*INGRESAR*/
+body#ingresar {
+    background:url("../Imagenes/fondo.jpg");
 }
-.row .col {
-    margin-top: 1cm;
-    border:1px solid rgb(255, 255, 255);
-    font-family:'Poppins';
-    column-rule-width: 100%;
-    text-align: center;
-  }
-.form-control{
-    font-family:'Poppins';
+
+img#logoingresar{width: 600px;
+	right:60px;
+}
+
+.col input#input1{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+    width: 160px;
+}
+
+div#header {
+    margin-top: 30px;
+}
+
+a#btn-borde {
+    background-color:  #FFFFFF;
+    color:black;
+    width: 250px;
     border-radius: 30px;
-    border-color: #989898;
-    background-color: #E1E1E1;
-    
-  }
-.link{
-    font-family:'Poppins';
-    color:#9d0f09;  
-    margin: 1cm;
- 
-}
-.link1 {
-    font-family:'Poppins';
-    color:#989898;  
-
- 
+    height: 40px;
+    border-color: #9D0f09;
 }
 
-.col h2{
- font-family:'Poppins';
-   text-align: center;
-   color: #9d0f09;
-   padding-bottom:1.5rem;
-   margin-left:20px;
+.ingresar {
+    width: 15px;
 }
-.form-text{
-    font-family:'Poppins';
-   text-align: center;
+
+a#olvidaste , #texto1 {
+    color: #FFFFFF;
 }
-.rss li{
- font-size:12px;
+a#olvidaste:hover , #texto1:hover {
+    color: #989898;
+    text-decoration: none;
 }
-h2{
-    font-family:'Poppins';
-    text-align: center; 
+
+p#invitado1{
+    padding-top: 6px;
 }
-.container{
-    margin-right:70px;
+
+div#inputs {
+    max-width: 170px;
 }
-.row{
-    padding-left:4rem;
-    padding-right:4rem;
+
+div#flecha {
+    max-width: 70px;
 }
-.ie a{
-    padding:5rem;
+
+form#ingresar-inputs {
+    margin-left: 58%;
 }
+
+a#olvidaste {
+    margin-left: 29%;
+}
+
+div#invitado {
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+div#invitado2 {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+div#non {
+    max-width: 185px;
+}
+
+
+
+
+
+
+
+
+/*CONTRASEÑA INCORRECTA*/
+/* Url de la imagen y alineacion de texto*/
+body#contincorrecta{
+    background:url("../imagenes/fondo.jpg");
+    text-align: center;
+}
+
+/* Tamano y color de texto*/
+p#contincorrecta2 {
+font-size: 13px;
+color: #9D0f09;
+}
+
+/* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
+.login#contincorrecta1 {
+  font-family: Poppins;
+  background-color:  #FFFFFF;
+  border: 1px solid #E1E1E1; 
+  border-radius: 55px;
+  padding: 17px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  /* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
+  #Nºdecedula , #exampleInputPassword1 {
+   padding: 1rem;
+   font-family: Poppins 10-pt;
+   font-weight: bold;
+   font-size: 12px;
+   border:0;
+   width: 350px;
+   height: 0.5px;
+   border-radius: 30px;
+  
+}
+
+/* Tamano, color, tipo de letra, borde, radio, margen, ancho y alto del boton*/
+.button1 {
+    margin-top: 1rem;
+    background-color:  #9d0f09;
+    border: 1px solid #9d0f09; 
+    font-family: Poppins;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 35px; 
+}
+
+/* Tamano, color, tipo de letra, borde, radio, margen, ancho y alto del boton*/
+.button2 {
+    margin-top: 1rem;
+    background-color:  #ffffff;
+    border: 1px solid #9d0f09; 
+    font-family: Poppins;
+    border-radius: 20px;
+    color: #989898;
+    width: 200px;
+    height: 35px;
+        
+}
+
+#links {
+  text-decoration: none ; /* Decoracion del texto*/
+  color:#989898; /* Color de texto*/
+}
+
+
+
+
+
+
+
+
+/*RECUPERAR*/
