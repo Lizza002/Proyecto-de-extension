@@ -1,114 +1,104 @@
 /*Footer y Header REGISTRADO*/
-.navbar-nav{
+
+.navbar-nav {
     width: 100vh;
 }
 
-.navbar-nav img{
+.navbar-nav img {
     width: 50px;
     height: 50px;
     margin-inline: 15%;
 }
 
 .navbar-nav a {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #ffffff;
 }
 
-.navbar-nav li{
-    color:#ffffff;
+.navbar-nav li {
+    color: #ffffff;
 }
 
-.navbar-nav i{
+.navbar-nav i {
     padding: 10%;
 }
 
-.col-md-3 img{
+.col-md-3 img {
     width: 10px;
 }
 
 .col-md-6 p {
-    font-family: 'Poppins', sans-serif; 
-    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
     font-size: 15px;
     margin: auto;
 }
 
-.col-md-6 h5{
+.col-md-6 h5 {
     font-family: 'Poppins', sans-serif;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 20px;
     margin: auto;
 }
 
-.col-md-5 p{
-    font-family: 'Poppins', sans-serif; 
-    color:#ffffff;
+.col-md-5 p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
     font-size: 15px;
     margin-right: 15%;
 }
 
-.col-md-5 h5{
+.col-md-5 h5 {
     margin-right: auto;
-    font-family: 'Poppins', sans-serif; 
-    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
     font-size: 20px;
     padding-inline: 180px;
 }
 
-.col-md-5 li{
-    color:#ffffff;
+.col-md-5 li {
+    color: #ffffff;
 }
-
 
 .navbar-expand-sm .navbar-nav {
     padding-inline: 250px;
 }
 
-.btn-group{
+.btn-group {
     padding-inline: 10%;
     background-color: #9d0f09;
 }
 
-.boton-menu a{
+.boton-menu a {
     color: #9d0f09;
-    border-top-right-radius:20px;
-    border-bottom-right-radius:20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     font-family: 'Poppins';
     margin-right: auto;
     box-shadow: 0px 0px 7px #999999;
-    border-color:#999999;
-   
+    border-color: #999999;
 }
-
-
-
-
-
 
 
 /*Footer y Header INVITADO*/
 
 
-
-
-
-
-
-
 /*INGRESAR*/
+
 body#ingresar {
-    background:url("../Imagenes/fondo.jpg");
+    background: url("../Imagenes/fondo.jpg");
 }
 
-img#logoingresar{width: 600px;
-	right:60px;
+img#logoingresar {
+    width: 600px;
+    right: 60px;
 }
 
-.col input#input1{
+.col input#input1 {
     border-radius: 20px;
     background-color: #FFFFFF;
-    border-color:#FFFFFF;
+    border-color: #FFFFFF;
     width: 160px;
 }
 
@@ -117,8 +107,8 @@ div#header {
 }
 
 a#btn-borde {
-    background-color:  #FFFFFF;
-    color:black;
+    background-color: #FFFFFF;
+    color: black;
     width: 250px;
     border-radius: 30px;
     height: 40px;
@@ -129,15 +119,18 @@ a#btn-borde {
     width: 15px;
 }
 
-a#olvidaste , #texto1 {
+a#olvidaste,
+#texto1 {
     color: #FFFFFF;
 }
-a#olvidaste:hover , #texto1:hover {
+
+a#olvidaste:hover,
+#texto1:hover {
     color: #989898;
     text-decoration: none;
 }
 
-p#invitado1{
+p#invitado1 {
     padding-top: 6px;
 }
 
@@ -172,108 +165,117 @@ div#non {
 }
 
 
-
-
-
-
-
-
 /*CONTRASEÑA INCORRECTA*/
+
+
 /* Url de la imagen y alineacion de texto*/
-body#contincorrecta{
-    background:url("../imagenes/fondo.jpg");
+
+body#contincorrecta {
+    background: url("../imagenes/fondo.jpg");
     text-align: center;
 }
 
+
 /* Tamano y color de texto*/
+
 p#contincorrecta2 {
-font-size: 13px;
-color: #9D0f09;
+    font-size: 13px;
+    color: #9D0f09;
 }
+
 
 /* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
+
 .login#contincorrecta1 {
-  font-family: Poppins;
-  background-color:  #FFFFFF;
-  border: 1px solid #E1E1E1; 
-  border-radius: 55px;
-  padding: 17px;
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-family: Poppins;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 55px;
+    padding: 17px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-  /* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
-  #Nºdecedula , #exampleInputPassword1 {
-   padding: 1rem;
-   font-family: Poppins 10-pt;
-   font-weight: bold;
-   font-size: 12px;
-   border:0;
-   width: 350px;
-   height: 0.5px;
-   border-radius: 30px;
-  
+
+/* Tamano, color, tipo de letra, borde, radio, ancho y alto de texto*/
+
+#Nºdecedula,
+#exampleInputPassword1 {
+    padding: 1rem;
+    font-family: Poppins 10-pt;
+    font-weight: bold;
+    font-size: 12px;
+    border: 0;
+    width: 350px;
+    height: 0.5px;
+    border-radius: 30px;
 }
+
 
 /* Tamano, color, tipo de letra, borde, radio, margen, ancho y alto del boton*/
+
 .button1 {
     margin-top: 1rem;
-    background-color:  #9d0f09;
-    border: 1px solid #9d0f09; 
+    background-color: #9d0f09;
+    border: 1px solid #9d0f09;
     font-family: Poppins;
     border-radius: 20px;
     color: #FFFFFF;
     width: 100px;
-    height: 35px; 
+    height: 35px;
 }
 
+
 /* Tamano, color, tipo de letra, borde, radio, margen, ancho y alto del boton*/
+
 .button2 {
     margin-top: 1rem;
-    background-color:  #ffffff;
-    border: 1px solid #9d0f09; 
+    background-color: #ffffff;
+    border: 1px solid #9d0f09;
     font-family: Poppins;
     border-radius: 20px;
     color: #989898;
     width: 200px;
     height: 35px;
-        
 }
 
 #links {
-  text-decoration: none ; /* Decoracion del texto*/
-  color:#989898; /* Color de texto*/
+    text-decoration: none;
+    /* Decoracion del texto*/
+    color: #989898;
+    /* Color de texto*/
 }
-
-
-
-
-
-
 
 
 /*RECUPERAR*/
+
+
 /*Agrega el fondo a todo el body*/
+
 body#recuperar {
-    background:url("../imagenes/fondo.jpg");
+    background: url("../imagenes/fondo.jpg");
 }
+
 
 /*Centra la tarjeta*/
+
 .cardtext-center#recuperar {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
 }
 
+
 /*Modifica el tipo de letra, color y borde (redondeado y con sombra)*/
-.card-body#recuperar{
-    font-family: 'Poppins' ;
+
+.card-body#recuperar {
+    font-family: 'Poppins';
     background: #ffffff;
     border-radius: 20px;
     width: 500px;
@@ -282,54 +284,64 @@ body#recuperar {
     box-shadow: 0px 0px 7px #999999;
 }
 
-/*Cambia el color y centra el texto*/
-.card-title#recuperar{
-    color:#9d0f09 ;
-    text-align: center;
- }
 
- h6#recuperar{
- 	text-align: center;
- }
+/*Cambia el color y centra el texto*/
+
+.card-title#recuperar {
+    color: #9d0f09;
+    text-align: center;
+}
+
+h6#recuperar {
+    text-align: center;
+}
+
 
 /*Modifica el color y el borde, y posiciona el input de correo*/
+
 .col#recuperar input {
     border-radius: 20px;
-    background-color:rgb(240, 240, 240);
-    border-color:rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(240, 240, 240);
     margin-top: 20px;
- }
+}
+
 
 /*Modifica, posiciona y da el color rojo al botón*/
-.card-body#recuperar a{
-	margin: 20px;
+
+.card-body#recuperar a {
+    margin: 20px;
     border-radius: 20px;
     background-color: #9d0f09;
     margin-left: 41%;
- }
-
-
-
- /*RECUPERADA*/
- 
- /*Agrega el fondo a todo el body*/
-body#recuperada {
-    background:url("../imagenes/fondo.jpg");
 }
 
+
+/*RECUPERADA*/
+
+
+/*Agrega el fondo a todo el body*/
+
+body#recuperada {
+    background: url("../imagenes/fondo.jpg");
+}
+
+
 /*Centra la tarjeta*/
+
 .cardtext-center#recuperada {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
 }
 
 
 /*Modifica el tipo de letra, color y borde (redondeado y con sombra)*/
-.card-body#recuperada{
-    font-family: 'Poppins' ;
+
+.card-body#recuperada {
+    font-family: 'Poppins';
     background: #ffffff;
     border-radius: 20px;
     width: 500px;
@@ -338,191 +350,608 @@ body#recuperada {
     box-shadow: 0px 0px 7px #999999;
 }
 
-/*Cambia el color y centra el texto*/
-.card-title#recuperada{
-    color:#9d0f09 ;
-    text-align: center;
- }
 
- h6#recuperada{
- 	text-align: center;
- }
+/*Cambia el color y centra el texto*/
+
+.card-title#recuperada {
+    color: #9d0f09;
+    text-align: center;
+}
+
+h6#recuperada {
+    text-align: center;
+}
+
 
 /*Modifica, posiciona y da el color rojo al botón*/
-.card-body#recuperada a{
-	margin: 20px;
+
+.card-body#recuperada a {
+    margin: 20px;
     border-radius: 20px;
     background-color: #9d0f09;
     margin-left: 42%;
- }
-
-
-
-
-
-
-
-
-  /*CONTACTO REGISTRADO*/
-  body#contacto {
-    text-align: center; /*Alineacion del texto*/
-    
-   
 }
 
+
+/*CONTACTO REGISTRADO*/
+
+body#contacto {
+    text-align: center;
+    /*Alineacion del texto*/
+}
+
+
 /*Margen, tipo de letra y color*/
+
 h2#contacto {
     margin-top: 1cm;
     font-family: Poppins;
     color: #9d0f09;
-   
+}
+
+.col#contacto img {
+    margin-top: 50px;
+    /*Agregar color de letra*/
+    width: 300px;
+    /*Ancho del objeto*/
 }
 
 
-
-.col#contacto img{
-    margin-top: 50px;/*Agregar color de letra*/
-    width: 300px;  /*Ancho del objeto*/
-    
-
-}
-    
 /*Margen, tipo de letra, color de fondo, borde, radio del borde*/
-.form-control#contacto{
+
+.form-control#contacto {
     margin-top: 0.5cm;
-    background-color:  #E1E1E1;
-    border: 1px solid #FFFFFF; 
+    background-color: #E1E1E1;
+    border: 1px solid #FFFFFF;
     font-family: Poppins;
     border-radius: 20px;
 }
+
+
 /*Margen, tipo de letra, color de fondo, borde, radio del borde, alineacion, ancho y alto*/
-.form-control1#contacto{
+
+.form-control1#contacto {
     margin-top: 0.5cm;
-    background-color:  #FFFFFF;
-    border: 1px solid #E1E1E1; 
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1E1;
     font-family: Poppins;
     width: 350px;
     height: 100px;
     border-radius: 20px;
     align-content: top;
-    
 }
+
 .login#contacto {
-    margin-top: 1cm; /*Margen*/
-    font-family: Poppins; /*tipo de letra*/
-    background-color:  #FFFFFF; /* color de fondo*/
-    border: 1px solid #E1E1E1; /* color de borde */
-    border-radius: 55px; /* radio del borde*/
-    padding: 17px; /*agregar espacio*/
-    width: 400px;/*Ancho*/
-    height: 350px;/*Alto*/
-    position: absolute; /*Posicion*/
+    margin-top: 1cm;
+    /*Margen*/
+    font-family: Poppins;
+    /*tipo de letra*/
+    background-color: #FFFFFF;
+    /* color de fondo*/
+    border: 1px solid #E1E1E1;
+    /* color de borde */
+    border-radius: 55px;
+    /* radio del borde*/
+    padding: 17px;
+    /*agregar espacio*/
+    width: 400px;
+    /*Ancho*/
+    height: 350px;
+    /*Alto*/
+    position: absolute;
+    /*Posicion*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    }
+}
+
 .button1#contacto {
-    margin-top: 1rem; /*Margen*/
-    background-color:  #9d0f09; /* color de fondo*/
-    border: 1px solid #9d0f09; /* color de borde */
-    font-family: Poppins; /*tipo de letra*/
-    border-radius: 20px; /* radio del borde*/
-    color: #FFFFFF; /*color de letra*/
-    width: 100px; /*Ancho*/
-    height: 35px; /*Alto*/
-        
+    margin-top: 1rem;
+    /*Margen*/
+    background-color: #9d0f09;
+    /* color de fondo*/
+    border: 1px solid #9d0f09;
+    /* color de borde */
+    font-family: Poppins;
+    /*tipo de letra*/
+    border-radius: 20px;
+    /* radio del borde*/
+    color: #FFFFFF;
+    /*color de letra*/
+    width: 100px;
+    /*Ancho*/
+    height: 35px;
+    /*Alto*/
 }
- footer#contacto {
-    margin-top: 100px; /*Margen*/
+
+footer#contacto {
+    margin-top: 100px;
+    /*Margen*/
 }
-
-
-
-
 
 
 /*HOME REGISTRADO*/
+
 .titulo#Rhome {
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
     color: #9d0f09;
     margin-left: 550px;
     padding: 1.1rem;
-    }
-        
-     
-    .card-subtitle#Rhome h6 {
-        color: #9d0f09;
-    }
-    
-    
-    .U#Rhome h3{
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+}
+
+.card-subtitle#Rhome h6 {
+    color: #9d0f09;
+}
+
+.U#Rhome h3 {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
     color: #9d0f09;
     margin-left: 550px;
     padding: 1.1rem;
-    }
-      
-    
-      .subtitulo#Rhome {
-    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+}
+
+.subtitulo#Rhome {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
     color: #9d0f09;
-      }
-    .card-text#Rhome{
-    
-        font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-    }
-    
-    .card-title#Rhome{
-        font-family: 'Poppins', sans-serif; /*Tipo de letra*/
-        
-    }
-    
-    .container#Rhome {
-    padding:2rem;
+}
 
-    }
-    
-    .col#Rhome h6{
-        font-family: 'Poppins';
-        font-size:16px;
-        align-items: center;
-        color: #989898;
-        padding-top:1rem;
-        margin-left:35px;
-    }
-    .col#Rhome p{
-        font-family: 'Poppins';
-        font-size: 12px;
-        align-items: center;
-        color: #989898;
-        
-    }
-    .col#Rhome img{
-        margin-left:25px;
-    }
-    
-    .card#Rhome {
-        border-radius: 35px; 
-        border-color:#ffffff;
-        width:350px;
-    }
-    .card-body#Rhome{
-        box-shadow: 0px 0px 7px #999999;
-        border-radius: 35px;
-        width:350px;
-        
-    }
-    .text-muted#Rhome {
-        color:#9d0f09;
-        font-family:'Poppins';
-    }
-    
-    .col#Rhome a{
-        margin-left:70px;
-        color:#9d0f09;
-    }
+.card-text#Rhome {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
+}
+
+.card-title#Rhome {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
+}
+
+.container#Rhome {
+    padding: 2rem;
+}
+
+.col#Rhome h6 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    align-items: center;
+    color: #989898;
+    padding-top: 1rem;
+    margin-left: 35px;
+}
+
+.col#Rhome p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    align-items: center;
+    color: #989898;
+}
+
+.col#Rhome img {
+    margin-left: 25px;
+}
+
+.card#Rhome {
+    border-radius: 35px;
+    border-color: #ffffff;
+    width: 350px;
+}
+
+.card-body#Rhome {
+    box-shadow: 0px 0px 7px #999999;
+    border-radius: 35px;
+    width: 350px;
+}
+
+.text-muted#Rhome {
+    color: #9d0f09;
+    font-family: 'Poppins';
+}
+
+.col#Rhome a {
+    margin-left: 70px;
+    color: #9d0f09;
+}
 
 
+/*NOSOTROS REGISTRADO*/
+
+.titulo#Rnosotros {
+    font-family: 'Poppins';
+    /*Tipo de letra*/
+    margin-left: 550px;
+    color: #9d0f09;
+    /*Agregar color de letra*/
+    padding: 1.5rem;
+    /*se utiliza para crear espacio alrededor del contenido de un elemento*/
+}
+
+.col#Rnosotros p {
+    font-family: 'Poppins';
+    /*Tipo de letra*/
+    font-size: 12px;
+    /*Tamaño de letra*/
+}
+
+.col#Rnosotros h5 {
+    font-family: 'Poppins';
+    /*Tipo de letra*/
+    color: #9d0f09;
+    /*Agregar color de letra*/
+}
+
+.col#Rnosotros h6 {
+    font-family: 'Poppins';
+    /*Tipo de letra*/
+    color: #9d0f09;
+    /*Agregar color de letra*/
+}
+
+.col#Rnosotros img {
+    margin-top: 50px;
+    /*Agregar color de letra*/
+    width: 300px;
+    /*Ancho del objeto*/
+    margin-left: 15%;
+    /*Agregar color de letra*/
+}
 
 
+/*LISTA DE PROYECTOS REGISTRADO*/
 
+.titulo#RlistaP {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
+    color: #9d0f09;
+    margin-left: 550px;
+    padding: 1.1rem;
+}
+
+.card-text#RlistaP {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
+}
+
+.card-title#RlistaP {
+    font-family: 'Poppins', sans-serif;
+    /*Tipo de letra*/
+    margin-bottom: 0px;
+}
+
+.container#RlistaP {
+    padding: 2rem;
+}
+
+.subtitulo#RlistaP {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #9d0f09;
+    margin-top: 10px;
+}
+
+.col#RlistaP p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    align-items: center;
+    color: #989898;
+}
+
+.col#RlistaP img {
+    border-radius: 20px;
+}
+
+.card#RlistaP {
+    border-radius: 35px;
+    border-color: #ffffff;
+    width: 350px;
+}
+
+.card-body#RlistaP {
+    box-shadow: 0px 0px 7px #999999;
+    border-radius: 35px;
+    width: 350px;
+}
+
+.text-muted#RlistaP {
+    color: #9d0f09;
+    font-family: 'Poppins';
+}
+
+.col#RlistaP a {
+    margin-left: 120px;
+    color: #9d0f09;
+}
+
+.au#RlistaP {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #989898;
+}
+
+
+/*INTERFAZ DE PROYECTO*/
+
+.btn#Rproyecto {
+    box-shadow: grey;
+}
+
+.col#Rproyecto h3 {
+    font-family: 'Poppins';
+    color: #9d0f09;
+}
+
+.card#Rproyecto {
+    width: 600px;
+}
+
+.col-sm#Rproyecto img {
+    border-radius: 30px;
+    width: 100px;
+}
+
+.col#Rproyecto a {
+    font-family: 'Poppins';
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.card-body#Rproyecto a {
+    margin-left: 280px;
+}
+
+.container#Rproyecto {
+    margin: left 70px;
+}
+
+.imagen#Rproyecto img {
+    width: 300px;
+    margin-left: 65%;
+    padding-top: 1.5rem;
+}
+
+
+/*SUBIR PROYECTO*/
+
+
+/*Centra la tarjeta*/
+
+.cardtext-center#Sproyecto {
+    margin-left: 700px;
+    transform: translate(-50%);
+    align-items: center;
+    padding: 2rem;
+}
+
+
+/*Modifica el tipo de letra, color y borde de la tarjeta (redondeado y con sombra)*/
+
+.card-body#Sproyecto {
+    font-family: 'Poppins';
+    background: #ffffff;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 18px;
+    color: #989898;
+    box-shadow: 0px 0px 7px #999999;
+}
+
+
+/*Cambia el color y centra el texto*/
+
+.card-title#Sproyecto {
+    color: #9d0f09;
+    text-align: center;
+}
+
+#Sproyecto h6 {
+    text-align: center;
+}
+
+
+/*Modifica el color y el borde, y posiciona los imput*/
+
+.col#Sproyecto input {
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(240, 240, 240);
+    margin-top: 20px;
+}
+
+
+/*Modifica, posiciona y da el color rojo al botón*/
+
+.card-body#Sproyecto a {
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #9d0f09;
+    margin-left: 41%;
+    width: 120px;
+}
+
+.form-select#Sproyecto {
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    font-size: 16px;
+    color: #989898;
+    padding: 5px;
+    width: 130px;
+}
+
+div#div-file {
+    position: relative;
+    margin: 5px;
+    padding: 15px;
+    height: 20px;
+    font-size: 15px;
+}
+
+input#myfile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+input#portada {
+    height: 150px;
+    text-align: center;
+}
+
+input#descrip {
+    height: 120px;
+    text-align: center;
+}
+
+.btn#Sproyecto {
+    color: #ffffff;
+    width: 120px;
+    border-radius: 30px;
+    height: 40px;
+    border-color: #9D0f09;
+}
+
+.col-sm-7#Sproyecto a {
+    color: #9D0f09;
+    width: 120px;
+    border-radius: 30px;
+    height: 40px;
+    border-color: #9D0f09;
+}
+
+
+/*REGISTRARSE*/
+
+body#registrarse {
+    background: url("../imagenes/fondo.jpg");
+    /* Imagen de fondo */
+    position: absolute;
+    /* Posicion de la imagen */
+    top: 20%;
+    left: 35%;
+}
+
+.card-body#registrarse {
+    font-family: 'Poppins';
+    /* Tipo de letra */
+    background: #ffffff;
+    /* Color de fondo del objeto */
+    border-radius: 35px;
+    /* El radio del objeto */
+    width: 400px;
+    /* Ancho */
+    font-size: 18px;
+    /* Tamaño de letra */
+    box-shadow: 0px 0px 7px #999999;
+}
+
+.card#registrarse {
+    width: 100px;
+    background-color: #ffffff;
+    /* Color de fondo del objeto */
+    margin: 0 auto;
+    /* Sirve para mover el objeto */
+    float: none;
+    /* especifica cómo debe flotar un elemento */
+    position: absolute;
+    /* Posicion de la tarjeta */
+    top: 50%;
+    left: 50%;
+}
+
+.card-title#registrarse {
+    color: #9d0f09;
+    /* Color de letra */
+    text-align: center;
+    /* Alinear texto */
+}
+
+.col#registrarse input {
+    border-radius: 20px;
+    /* El radio del objeto */
+    background-color: rgb(240, 240, 240);
+    /* Color de fondo del objeto */
+    border-color: rgb(240, 240, 240);
+    /* Color del borde */
+}
+
+.col#registrarse select {
+    border-radius: 20px;
+    /* El radio del objeto */
+    background-color: rgb(240, 240, 240);
+    /* Color de fondo del objeto */
+    border-color: rgb(240, 240, 240);
+    /* Color del borde */
+    font-size: 16px;
+    padding: 0.3rem;
+}
+
+.form-group#registrarse input {
+    border-radius: 20px;
+    /* El radio del objeto */
+    background-color: rgb(240, 240, 240);
+    /* Color de fondo del objeto */
+    border-color: rgb(240, 240, 240);
+    /* Color del borde */
+    margin-top: 30px;
+    /* Margen */
+}
+
+.card-body#registrarse a {
+    margin-right: 70%;
+    /* Margen */
+    border-radius: 20px;
+}
+
+
+/* REVISION */
+
+.card-body#revision {
+    font-family: 'Poppins';
+    /* Tipo de letra */
+    background: #ffffff;
+    /* Color de fondo del objeto */
+    border-radius: 35px;
+    /* El radio del objeto */
+    width: 400px;
+    /* Ancho */
+    font-size: 18px;
+    /* Tamaño de letra */
+    color: #989898;
+    /* Color */
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    box-shadow: 0px 0px 7px #999999;
+}
+
+.card#revision {
+    width: 100px;
+    background-color: #ffffff;
+    /* Color de fondo del objeto */
+    margin: 0 auto;
+    /* Sirve para mover el objeto */
+    float: none;
+    /* especifica cómo debe flotar un elemento */
+}
+
+.card-title#revision {
+    color: #9d0f09;
+    /* Color de letra */
+    text-align: center;
+    /* Alinear texto */
+    padding-top: 10px;
+}
+
+.card-body#revision a {
+    margin-right: 70%;
+    /* Margen */
+    border-radius: 20px;
+    /* El radio del objeto */
+}
