@@ -95,7 +95,7 @@ img#logoingresar {
     right: 60px;
 }
 
-.col input#input1 {
+.col#inputs input {
     border-radius: 20px;
     background-color: #FFFFFF;
     border-color: #FFFFFF;

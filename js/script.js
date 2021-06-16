@@ -1,12 +1,85 @@
+// INTERFAZ DE PROYECTO
 const targets = document.querySelectorAll('[data-target]')
 const content = document.querySelectorAll('[data-content]')
 
 targets.forEach(target => {
-	target.addEventListener('click', () => {
-		content.forEach(c => {
-			c.classList.remove('active')
-		})
-		const t = document.querySelector(target.dataset.target)
-		t.classList.add('active')
-	})
+    target.addEventListener('click', () => {
+        content.forEach(c => {
+            c.classList.remove('active')
+        })
+        const t = document.querySelector(target.dataset.target)
+        t.classList.add('active')
+    })
 })
+
+//INGRESAR
+
+/*Roles
+1: Adm
+2: Usuario*/
+
+function ObtenerListaUsuarios() {
+    var ListaUsuarios = JSON.parse(localStorage.getItem('ListaUsuariosLs'));
+
+    if (ListaUsuarios == null) {
+        ListaUsuarios == [
+            //numero de cedula, contrasena
+            ['1', 'Nombre', 'Apellido', '4567898', 'administrador', '1'],
+            ['2', 'Nombre', 'Apellido', '5086078', 'usuario', '2']
+        ]
+    }
+    return ListaUsuarios;
+}
+
+function validarcredenciales(pcedula, pcontrasena) {
+    var ListaUsuarios = ObtenerListaUsuarios();
+    var bacceso = false;
+
+    for (var i = 0; i < ListaUsuarios.length; i++) {
+        if (pcedula == ListaUsuarios[i][3] && pcontrasena == ListaUsuarios[i][4]) {
+            bacceso = true
+            sessionStorage.setItem('usuarioactivo', ListaUsuarios[i][1] + ' ' + ListaUsuarios[i][2]);
+            sessionStorage.setItem('rolusuarioactivo', ListaUsuarios[i][5])
+        }
+    }
+    return bacceso;
+}
+
+
+//Interfaz inicio sesion 
+document.querySelector('#btnIngresar').addEventListener('click',
+    iniciarSesion);
+
+function iniciarSesion() {
+    var scedula = '';
+    var scontrasena = '';
+    var bacceso = false;
+
+    scedula = document.querySelector('#cedula').value;
+    scontrasena = document.querySelector('#contrasena').value;
+
+
+    bacceso = validarcredenciales(scedula, scontrasena);
+
+    if (bacceso == true) {
+        ingresar();
+    }
+}
+
+function ingresar() {
+    var rol = sessionStorage.getItem('roluruarioactivo');
+    switch (rol) {
+        case '1':
+            window.location.href = '';
+
+            break;
+        case '2':
+            window.location.href = '../paginas/R-Home.html';
+            break;
+
+
+            window.location.href = "paginas/contincorrecta.html";
+
+            break;
+    }
+}
