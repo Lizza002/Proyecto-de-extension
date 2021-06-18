@@ -78,7 +78,7 @@ function ingresar() {
             break;
 
 
-            window.location.href = "paginas/contincorrecta.html";
+            window.location.href = "../paginas/contincorrecta.html";
 
             break;
     }
