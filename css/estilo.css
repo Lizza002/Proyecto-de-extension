@@ -81,7 +81,8 @@
 }
 
 
-/*Footer y Header INVITADO*/
+
+
 
 
 /*INGRESAR*/
@@ -163,6 +164,10 @@ div#invitado2 {
 div#non {
     max-width: 185px;
 }
+
+
+
+
 
 
 /*CONTRASEÑA INCORRECTA*/
@@ -251,8 +256,12 @@ p#contincorrecta2 {
 }
 
 
-/*RECUPERAR*/
 
+
+
+
+
+/*RECUPERAR*/
 
 /*Agrega el fondo a todo el body*/
 
@@ -317,6 +326,11 @@ h6#recuperar {
 }
 
 
+
+
+
+
+
 /*RECUPERADA*/
 
 
@@ -371,6 +385,10 @@ h6#recuperada {
     background-color: #9d0f09;
     margin-left: 42%;
 }
+
+
+
+
 
 
 /*CONTACTO REGISTRADO*/
@@ -470,6 +488,10 @@ footer#contacto {
 }
 
 
+
+
+
+
 /*HOME REGISTRADO*/
 
 .titulo#Rhome {
@@ -488,7 +510,7 @@ footer#contacto {
     font-family: 'Poppins', sans-serif;
     /*Tipo de letra*/
     color: #9d0f09;
-    margin-left: 550px;
+    margin-left: 510px;
     padding: 1.1rem;
 }
 
@@ -555,6 +577,10 @@ footer#contacto {
 }
 
 
+
+
+
+
 /*NOSOTROS REGISTRADO*/
 
 .titulo#Rnosotros {
@@ -598,13 +624,17 @@ footer#contacto {
 }
 
 
+
+
+
+
 /*LISTA DE PROYECTOS REGISTRADO*/
 
 .titulo#RlistaP {
     font-family: 'Poppins', sans-serif;
     /*Tipo de letra*/
     color: #9d0f09;
-    margin-left: 550px;
+    margin-left: 510px;
     padding: 1.1rem;
 }
 
@@ -670,6 +700,10 @@ footer#contacto {
 }
 
 
+
+
+
+
 /*INTERFAZ DE PROYECTO*/
 
 .btn#Rproyecto {
@@ -711,8 +745,11 @@ footer#contacto {
 }
 
 
-/*SUBIR PROYECTO*/
 
+
+
+
+/*SUBIR PROYECTO*/
 
 /*Centra la tarjeta*/
 
@@ -826,6 +863,10 @@ input#descrip {
 }
 
 
+
+
+
+
 /*REGISTRARSE*/
 
 body#registrarse {
@@ -910,6 +951,10 @@ body#registrarse {
 }
 
 
+
+
+
+
 /* REVISION */
 
 .card-body#revision {
@@ -955,3 +1000,352 @@ body#registrarse {
     border-radius: 20px;
     /* El radio del objeto */
 }
+
+
+
+
+
+/*CONTACTO 1 REGISTRADO*/
+/*Centra la tarjeta*/
+.cardtext-center#contacto1 {
+    position: relative;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 450px;
+}
+
+/*Modifica el tipo de letra, color y borde (redondeado y con sombra)*/
+.card-body#contacto1{
+    font-family: 'Poppins' ;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 18px;
+    color: #989898;
+    box-shadow: 0px 0px 7px #999999;
+}
+
+/*Cambia el color y centra el texto*/
+.card-title#contacto1{
+    color:#9d0f09 ;
+    text-align: center;
+ }
+
+ h6#contacto1{
+    text-align: center;
+ }
+
+/*Modifica, posiciona y da el color rojo al botón*/
+.card-body a#contacto1{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #9d0f09;
+    margin-left: 41%;
+ }
+
+
+
+
+
+ /*RESULTADOS*/
+.titulo#titulo-resultados {
+font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+color: #9d0f09;
+margin-left: 550px;
+padding: 1.1rem;
+}
+
+.card-text#resultados {
+    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+}
+
+.card-title#resultados{
+    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+    margin-bottom: 0px;
+}
+
+.container#resultados {
+padding:2rem;
+}
+
+
+.subtitulo#resultado{
+    font-family: 'Poppins';
+    font-size:15px;
+    color: #9d0f09;
+    margin-top: 10px;
+}
+
+.col p#resultados{
+    font-family: 'Poppins';
+    font-size: 12px;
+    align-items: center;
+    color: #989898;
+    
+}
+
+.card#resultados {
+    border-radius: 35px; 
+    border-color:#ffffff;
+    width:350px;
+}
+
+.card-body#resultados{
+    box-shadow: 0px 0px 7px #999999;
+    border-radius: 35px;
+    width:350px;
+    
+}
+
+.col a#resultados{
+    margin-left:120px;
+    color:#9d0f09;
+}
+
+.au#resultados {
+    font-family: 'Poppins';
+    font-size:15px;
+    color: #989898;
+}
+
+
+
+
+
+/*ERROR DE BÚSQUEDA (Sin resultados)*/
+.boton-menu a#errorb{
+    color: #9d0f09; /*Color de letra*/
+    border-color:#989898; /*Agregar color de letra*/
+    border-top-right-radius:20px; /*Tipo de letra*/
+    border-bottom-right-radius:20px;
+    font-family: 'Poppins'; /*Tipo de letra*/
+    margin-right: auto; /*Margen del objeto*/
+}
+
+/*Posicion y ancho*/
+.container#errorb{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.container img#errorb{
+    width: 450px; /*Ancho del objeto*/
+    margin-left: 150%; /*Margen del objeto*/
+}
+
+.texto1 p#errorb {
+    position: absolute; /*Posicion*/
+    width: 100%; /*Ancho del objeto*/
+    top: 300px; 
+    left: 200%;
+    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+    font-size: 12px; /*Tamaño de letra*/
+    color: #9d0f09; /*Color de letra*/
+}
+
+.texto2#errorb{
+    position: absolute; /*Posicion*/
+    width: 60%; /*Ancho del objeto*/
+    top: 70%;
+    left: 200%;
+    font-family: 'Poppins', sans-serif; /*Tipo de letra*/
+    font-size: 12px; /*Tamaño de letra*/
+    color:#989898; /*Color de letra*/
+}
+
+
+
+
+
+/*PERMISO*/
+/*Centra la tarjeta*/
+.cardtext-center#permiso {
+    position: relative;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 450px;
+}
+
+/*Modifica el tipo de letra, color y borde (redondeado y con sombra)*/
+.card-body#permiso{
+    font-family: 'Poppins' ;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 18px;
+    color: #989898;
+    box-shadow: 0px 0px 7px #999999;
+}
+
+/*Cambia el color y centra el texto*/
+.card-title#permiso{
+    color:#9d0f09 ;
+    text-align: center;
+ }
+
+ h6#permiso{
+    text-align: center;
+ }
+
+/*Modifica, posiciona y da el color rojo al botón*/
+.card-body a#permiso{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #9d0f09;
+    margin-left: 35%;
+ }
+
+
+
+
+
+ /*ERROR 404*/
+img#error404 {
+  margin-left: 10%;
+}
+
+
+
+
+
+/*MENÚ REGISTRADO*/
+body#menu1 {
+    text-align: center;    
+}
+
+ .form-search#menu1 {
+    height:100px;
+    width:300px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:30px;
+}
+.row.col#menu1 {
+    margin-top: 1cm;
+    border:1px solid rgb(255, 255, 255);
+    font-family:'Poppins';
+    column-rule-width: 100%;
+    text-align: center;
+  }
+.form-control#menu1{
+    font-family:'Poppins';
+    border-radius: 30px;
+    border-color: #989898;
+    background-color: #E1E1E1;
+    
+  }
+.link#menu1{
+    font-family:'Poppins';
+    color:#9d0f09;  
+    margin: 1cm;
+}
+
+.col h2#menu1{
+ font-family:'Poppins';
+   text-align: center;
+   color: #9d0f09;
+   padding-bottom:1.5rem;
+   margin-left:20px;
+}
+
+.form-text#menu1{
+    font-family:'Poppins';
+   text-align: center;
+}
+
+.rss li#menu1{
+ font-size:12px;
+}
+
+h2#menu1{
+    font-family:'Poppins';
+    text-align: center; 
+}
+
+.row#menu1{
+    padding-left:4rem;
+    padding-right:4rem;
+}
+
+.ie a#menu1{
+    padding:5rem;
+}
+
+
+
+
+
+/*BIBLIOTECA*/
+.boton-menu a#biblioteca{
+    color: #9d0f09;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    font-family: 'Poppins';
+    margin-right: auto;
+    box-shadow: 0px 0px 7px #999999;
+    border-color:#999999;
+   
+}
+
+#biblioteca h3{
+    color: #9d0f09;
+    margin-left: 600px;
+    font-family:'Poppins';
+    padding-bottom:1rem;
+}
+
+.card#biblioteca{
+    width: 950px;
+    margin-left:200px;
+    border-radius:20px;
+    box-shadow: 0px 0px 5px #999999;
+    margin-bottom: 40px;
+}
+
+.card-body#biblioteca{
+}
+
+.menu#biblioteca {
+    display: flex;
+    margin-left:250px;
+}
+
+.menu p#biblioteca {
+    margin-right: 2rem;
+    cursor: pointer;
+    color: #9d0f09;
+    font-family:'Poppins';
+
+}
+
+.content#biblioteca {
+    margin-top: 2rem;
+}
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}
+
+.col-8#biblioteca{
+    color:#989898 ;
+    font-family: 'Poppins';
+}
+
+.col-4 i#biblioteca{
+    color:#989898;
+}
+
+
+
+
+
+/**/
