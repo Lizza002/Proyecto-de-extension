@@ -47,9 +47,11 @@
                     <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: #9d0f09; border-color: #9d0f09;"></button>
                     <div class="dropdown-menu">
                         <!-- Notificaciones del boton desplegable -->
-                        <a class="dropdown-item" href="../Subir Proyecto/index.html">Agregar proyecto</a>
-                        <a class="dropdown-item" href="#">Mis proyectos</a>
-                        <a class="dropdown-item" href="#">Configuracion</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="../paginas/Biblioteca.html">Biblioteca</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="../paginas/Usuario.html">Usuarios</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="Adm-SubirProyecto.html">Agregar proyecto</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="#">Facultades</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="#">Configuracion</a>
                     </div>
                     <img src="../imagenes/male.png" alt="..." class="rounded-circle">
                     <!-- Foto del usuario -->
@@ -519,7 +521,7 @@
 
                             <div>
                         </form>
-                        <a href="#" class="btn btn-primary" style="background-color: #9d0f09; margin-top: 30px; margin-left: 105px; border-color:#9d0f09;">REGISTRARME</a>
+                        <a href="#" class="btn btn-primary" id="boton1" style="background-color: #9d0f09; margin-top: 30px; margin-left: 105px; border-color:#9d0f09;">REGISTRAR</a>
                         <!--Boton de la tarjeta-->
                         </div>
                     </div>
@@ -620,20 +622,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script>
-    var contador;
 
-    function calificar(item) {
-        console.log(item);
-        contador = item.id[0];
-        let nombre = item.id.substring(1);
-        for (let i = 0; i < 5; i++) {
-            if (i < contador) {
-                document.getElementById((i + 1) + nombre).style.color = "#9d0f09";
-            }
-        }
-    }
-</script>
 
 
 </html>

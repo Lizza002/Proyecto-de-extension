@@ -18,13 +18,13 @@
     <!-- Enlace a iconos de google -->
 
 
-    <title>Home</title>
+    <title>Adm Subir proyecto</title>
     <!-- Nombre de la pagina -->
 </head>
 <header>
     <nav class="navbar navbar-light navbar-expand-sm sticky-top" style="background-color: #9d0f09;">
         <!-- Poner un navbar con color -->
-        <a class="navbar-brand" href="R-Home.html">
+        <a class="navbar-brand" href="R-Menu.html">
             <img src="../imagenes/logo-unae.png" width="45" height="45" alt="">
             <!-- Insertar una imagen en el navbar -->
         </a>
@@ -48,176 +48,99 @@
                     <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: #9d0f09; border-color: #9d0f09;"></button>
                     <div class="dropdown-menu">
                         <!-- Notificaciones del boton desplegable -->
-                        <a class="dropdown-item" href="../paginas/SubirProyecto.html">Agregar proyecto</a>
-                        <a class="dropdown-item" href="#">Mis proyectos</a>
-                        <a class="dropdown-item" href="#">Configuracion</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="../paginas/Biblioteca.html">Biblioteca</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="../paginas/Usuario.html">Usuarios</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="Adm-SubirProyecto.html">Agregar proyecto</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="#">Facultades</a>
+                        <a class="dropdown-item active" style="background-color: #ffffff; color: #989898;" href="#">Configuracion</a>
                     </div>
                     <img src="../imagenes/male.png" alt="..." class="rounded-circle">
                     <!-- Foto del usuario -->
                 </div>
     </nav>
+
     </nav>
 
 </header>
 
 
 
-
-
 <body>
-    <!-- Cuerpo o contenido  -->
-    <div class="boton-menu" style="box-shadow: #9d0f09;">
-        <a href="R-Menu.html" class="btn btn-primary" style="background-color: #ffffff; margin-top: 20px; margin-left: 4px;">MENÚ</a>
-        <!--Boton de la tarjeta-->
-    </div>
+    <div class="cardtext-center" id="ASproyecto">
+        <div class="card-body" id="ASproyecto">
+            <h5 class="card-title" id="ASproyecto">Cuéntanos sobre tu proyecto</h5>
+            <form>
+                <div class="row" id="ASproyecto">
+                    <div class="col" id="ASproyecto">
+                        <input id="portada" type="text" class="form-control" placeholder="Agrega una portada">
+                        <input type="text" class="form-control" placeholder="Nombre del proyecto">
+                        <input type="text" class="form-control" placeholder="Autor/es">
+                        <input type="text" class="form-control" placeholder="Tipo de proyecto">
 
 
+                        <div class="row align-items-start" id="ASproyecto">
+                            <div class="col" id="Sproyecto">
+                                <select class="form-select" id="ASproyecto" aria-label="Default select example">
+                  <option selected>Facultad</option>
+                  <option>One</option>
+                  <option>Two</option>
+                  <option>Three</option>
+                </select>
+                            </div>
+                            <div class="col" id="ASproyecto">
+                                <select class="form-select" id="ASproyecto" aria-label="Default select example">
+                  <option selected>Carrera</option>
+                  <option>One</option>
+                  <option>Two</option>
+                  <option>Three</option>
+                </select>
+                            </div>
+                            <div class="col" id="ASproyecto">
+                                <select class="form-select" id="ASproyecto" aria-label="Default select example">
+                  <option selected>Año</option>
+                  <option>One</option>
+                  <option>Two</option>
+                  <option>Three</option>
+                </select>
+                            </div>
+                        </div>
+
+                        <input id="descrip" type="text" class="form-control" placeholder="Breve descripción">
+                    </div>
+
+                    <div class="container" id="ASproyecto">
+                        <div class="row align-items-start">
+                            <div class="col-5" id="div-file">
+                                <label for="myfile">Subir archivo pdf</label>
+                                <input type="file" id="myfile" name="myfile" accept="application/pdf">
+                            </div>
+                            <div class="col-6" id="div-file">
+                                <label for="myfile">Subir archivos adicionales</label>
+                                <input type="file" id="myfile" name="myfile" accept="aplication/img">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <br>
+                <div class="container" id="ASproyecto">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3" id="ASproyecto">
+                            <a href="Subida-Exitosa.html" class="btn btn-primary" style="background-color: #9d0f09; margin-top: 30px; margin-left: 10px;">Enviar</a>
+                            <!--Boton de la tarjeta-->
+                        </div>
+                        <div class="col-sm-7" id="ASproyecto">
+                            <a href="Adm-Home.html" id="ASproyecto" class="btn btn-primary" style="background-color: #ffffff; margin-top: 30px; margin-left: 100px;">Cancelar</a>
+                            <!--Boton de la tarjeta-->
 
 
-
-
-    <div class="titulo" id="Rhome">
-        <h1>FACULTADES</h1>
-    </div>
-
-    <div class="container">
-        <div class="row row-cols-4">
-
-            <div class="col" id="Rhome">
-                <img src="../imagenes/facem.png">
-                <h6>FACEM</h6>
-                <p>Facultad de Ciencias Empresariales</p>
-
-            </div>
-
-
-
-            <div class="col" id="Rhome">
-                <img src="../imagenes/facat.png">
-                <h6>FACAT</h6>
-                <p>Facultad de Ciencia, Arte y Tecnología</p>
-
-            </div>
-
-
-
-            <div class="col" id="Rhome">
-                <img src="../imagenes/facsa.png">
-                <h6>FACSA</h6>
-                <p>Facultad de Ciencias de la Salud</p>
-
-            </div>
-
-
-
-            <div class="col" id="Rhome">
-
-                <img src="../imagenes/isede.png">
-                <h6>ISEDE</h6>
-                <p>Instituto Superior de Educacion Divina Esperanza</p>
-
-            </div>
-
-
-
-            <div class="col" id="Rhome">
-                <img src="../imagenes/fcjhs.png">
-                <h6>FCJHS</h6>
-                <p>Facultad de Ciencia Juridicas, Humanas y Social</p>
-
-            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-
-
-    <div class="U" id="Rhome">
-        <h3>ÚLTIMOS DESTACADOS </h3>
-
-    </div>
-
-
-
-
-
-
-
-
-    <div class="container" id="Rhome">
-        <div class="row">
-            <div class="col" id="Rhome">
-
-                <div class="card" id="Rhome" style="width: 18rem;">
-                    <div class="card-body" id="Rhome">
-
-                        <h6 class="subtitulo" id="Rhome">EXTENCIÓN</h6>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <h5 class="card-title" id="Rhome">TITULO DEL PROYECTO</h5>
-                        <p class="card-text" id="Rhome">Insertar una breve descripción acerca de dicho proyecto, que año está o están cursando los autores,caracteristicas, objetivos, si necesitan colaboradores, que falta terminar y que ya está terminado, alguna modificación faltante
-                            y para quien o a quien le va a beneficiar la realización del proyecto.
-                        </p>
-                        <a href="R-Proyecto.html" class="card-link">VER MÁS</a>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-            </div>
-            <div class="col" id="Rhome">
-                <div class="card" id="Rhome" style="width: 18rem;">
-                    <div class="card-body" id="Rhome">
-                        <h6 class="card-subtitle mb-2 text-muted" id="Rhome">EXTENCIÓN</h6>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <h5 class="card-title" id="Rhome">TITULO DE PROYECTO</h5>
-                        <p class="card-text" id="Rhome">Insertar una breve descripción acerca de dicho proyecto, que año está o están cursando los autores,caracteristicas, objetivos, si necesitan colaboradores, que falta terminar y que ya está terminado, alguna modificación faltante
-                            y para quien o a quien le va a beneficiar la realización del proyecto.
-                        </p>
-                        <a href="R-Proyecto.html" class="card-link">VER MÁS</a>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col" id="Rhome">
-                <div class="card" id="Rhome" style="width: 18rem;">
-                    <div class="card-body" id="Rhome">
-                        <h6 class="card-subtitle mb-2 text-muted" id="Rhome">EXTENCIÓN</h6>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <i class="bi bi-star-fill" style="color: #9d0f09;"></i>
-                        <h5 class="card-title" id="Rhome">TITULO DE PROYECTO</h5>
-                        <p class="card-text" id="Rhome">Insertar una breve descripción acerca de dicho proyecto, que año está o están cursando los autores,caracteristicas, objetivos, si necesitan colaboradores, que falta terminar y que ya está terminado, alguna modificación faltante
-                            y para quien o a quien le va a beneficiar la realización del proyecto.
-                        </p>
-                        <a href="R-Proyecto.html" class="card-link">VER MÁS</a>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
 
 
 
@@ -229,11 +152,6 @@
 
 
 </body>
-
-
-
-
-
 
 
 
@@ -320,6 +238,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 
 </html>
