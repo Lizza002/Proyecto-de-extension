@@ -18,7 +18,7 @@ targets.forEach(target => {
 1: Adm
 2: Usuario*/
 
-function ObtenerListaUsuarios() {
+/*function ObtenerListaUsuarios() {
     var ListaUsuarios = JSON.parse(localStorage.getItem('ListaUsuariosLs'));
 
     if (ListaUsuarios == null) {
@@ -82,4 +82,8 @@ function ingresar() {
 
             break;
     }
-}
+}*/
+
+
+/*LO QUE DEBE IR EN VEZ DEL LINK DEL INGRESAR
+<input type="image" src="imagenes/Trazado 5.png" id="btnIngresar">*/
