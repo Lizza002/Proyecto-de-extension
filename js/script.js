@@ -34,7 +34,7 @@ document.getElementById('boton1').onclick = function() {
     return ListaUsuarios;
 }
 
-function validarcredenciales(pcedula, pcontrasena) {
+function validarCredenciales(pcedula, pcontrasena) {
     var ListaUsuarios = ObtenerListaUsuarios();
     var bacceso = false;
 
@@ -62,7 +62,7 @@ function iniciarSesion() {
     scontrasena = document.querySelector('#contrasena').value;
 
 
-    bacceso = validarcredenciales(scedula, scontrasena);
+    bacceso = validarCredenciales(scedula, scontrasena);
 
     if (bacceso == true) {
         ingresar();
@@ -70,10 +70,10 @@ function iniciarSesion() {
 }
 
 function ingresar() {
-    var rol = sessionStorage.getItem('roluruarioactivo');
+    var rol = sessionStorage.getItem('rolusuarioactivo');
     switch (rol) {
         case '1':
-            window.location.href = '';
+            window.location.href = '../paginas/Adm-Home.html';
 
             break;
         case '2':
